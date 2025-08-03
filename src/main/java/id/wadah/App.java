@@ -8,8 +8,16 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("Nama: Hadi");
-        System.out.println("Umur: 48");
-        System.out.println("Kota: Jakarta");
+        String nama;
+        int umur;
+        String kota;
+
+        nama = "Hadi";
+        umur = 48;
+        kota = "Jakarta";
+
+        System.out.println("Nama: " + nama);
+        System.out.println("Umur: " + umur);
+        System.out.println("Kota: " + kota);
     }
 }
