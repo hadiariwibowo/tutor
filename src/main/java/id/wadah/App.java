@@ -16,8 +16,8 @@ public class App
         umur = 48;
         kota = "Jakarta";
 
-        System.out.println("Nama: " + nama);
-        System.out.println("Umur: " + umur);
-        System.out.println("Kota: " + kota);
+        System.out.printf("Nama: %s%n.", nama);
+        System.out.printf("Umur: %d%n.", umur);
+        System.out.printf("Kota: %s%n.", kota);
     }
 }
