@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AgeClassifier",
+            "request": "launch",
+            "mainClass": "id.wadah.AgeClassifier",
+            "projectName": "tutor"
+        },
+        {
+            "type": "java",
             "name": "GreetingWtihAgeCheck",
             "request": "launch",
             "mainClass": "id.wadah.GreetingWtihAgeCheck",
