@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InheritanceApp",
+            "request": "launch",
+            "mainClass": "id.wadah.InheritanceApp",
+            "projectName": "tutor"
+        },
+        {
+            "type": "java",
             "name": "GreetingApp",
             "request": "launch",
             "mainClass": "id.wadah.GreetingApp",

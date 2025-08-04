@@ -1,11 +1,17 @@
 package id.wadah;
 
 public class Person {
-    private String nama;
-    private int umur;
+    protected String nama;
+    protected int umur;
 
     public Person(String nama) {
         this.nama = nama;
+        this.umur = 0;
+    }
+
+    public Person(String nama, int umur) {
+        this.nama = nama;
+        this.umur = Math.max(umur, 0);
     }
 
     public void sapa() {
@@ -20,10 +26,9 @@ public class Person {
     public boolean setUmur(int umur) {
         if (umur < 1) {
             return false;
-        } else {
-            this.umur = umur;
-            return true;
-        }
+        } 
+        this.umur = umur;
+        return true;
     }
 
     @Override
