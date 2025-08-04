@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GreetingEveryone",
+            "request": "launch",
+            "mainClass": "id.wadah.GreetingEveryone",
+            "projectName": "tutor"
+        },
+        {
+            "type": "java",
             "name": "RepeatGreeting",
             "request": "launch",
             "mainClass": "id.wadah.RepeatGreeting",
