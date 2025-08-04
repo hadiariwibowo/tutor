@@ -4,9 +4,8 @@ public class Person {
     private String nama;
     private int umur;
 
-    public Person(String nama, int umur) {
+    public Person(String nama) {
         this.nama = nama;
-        this.umur = umur;
     }
 
     public void sapa() {
@@ -16,5 +15,26 @@ public class Person {
     // Getter (opsional)
     public String getNama() {
         return nama;
+    }
+
+    public boolean setUmur(int umur) {
+        if (umur < 1) {
+            return false;
+        } else {
+            this.umur = umur;
+            return true;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "nama='" + nama + '\'' +
+                ", umur=" + umur +
+                '}';
+    }
+
+    public Boolean isDewasa() {
+        return (this.umur >= 17);
     }
 }
