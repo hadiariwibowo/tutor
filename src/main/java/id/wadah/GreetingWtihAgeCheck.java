@@ -16,8 +16,8 @@ public class GreetingWtihAgeCheck {
         nama = scanner.nextLine();
         scanner.close();
         if (umur < 17)
-            System.out.println("Kamu belum dewasa.");
+            System.out.printf("%s, kamu belum dewasa.%n", nama);
         else
-            System.out.println("Kamu sudah dewasa.");
+            System.out.printf("%s, kamu sudah dewasa.%n", nama);
     }
 }
