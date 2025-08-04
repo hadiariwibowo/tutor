@@ -1,6 +1,6 @@
 package id.wadah;
 
-public class Person {
+public class Person implements Hidup {
     protected String nama;
     protected int umur;
 
@@ -41,5 +41,15 @@ public class Person {
 
     public Boolean isDewasa() {
         return (this.umur >= 17);
+    }
+
+    @Override
+    public void makan() {
+        System.out.printf("%s sedang makan nasi goreng.%n", nama);
+    }
+
+    @Override
+    public void tidur() {
+        System.out.printf("%s sedang tidur nyenyak.%n", nama);
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PolymorphismApp",
+            "request": "launch",
+            "mainClass": "id.wadah.PolymorphismApp",
+            "projectName": "tutor"
+        },
+        {
+            "type": "java",
             "name": "InheritanceApp",
             "request": "launch",
             "mainClass": "id.wadah.InheritanceApp",
